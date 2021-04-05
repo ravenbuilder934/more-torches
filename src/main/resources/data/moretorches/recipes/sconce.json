@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " Y ",
+    "YXZ",
+    " Y "
+  ],
+  "key":
+  {
+    "X":
+    {
+      "item": "minecraft:torch"
+    },
+    "Y":
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    "Z":
+    {
+      "item": "minecraft:oak_log"
+    }
+  },
+  "result":
+  {
+    "item": "moretorches:sconce"
+  }
+}

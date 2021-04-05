@@ -1,4 +1,4 @@
-# Pake
+# More Torches
 
 A mod for Minecraft that adds three new light sources.
 

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " Y ",
+    " X ",
+    " X "
+  ],
+  "key":
+  {
+    "X":
+    {
+      "item": "minecraft:campfire"
+    },
+    "Y":
+    {
+      "item": "minecraft:oak_log"
+    }
+  },
+  "result":
+  {
+    "item": "moretorches:talltorch"
+  }
+}

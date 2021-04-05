@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "   ",
+    " Y ",
+    " X "
+  ],
+  "key":
+  {
+    "X":
+    {
+      "item": "minecraft:lectern"
+    },
+    "Y":
+    {
+      "item": "minecraft:campfire"
+    }
+  },
+  "result":
+  {
+    "item": "moretorches:lecterntorch"
+  }
+}
