@@ -3,15 +3,15 @@
 	"parent": "block/template_fire_floor",
 	"ambientocclusion": false,
 	"textures": {
-		"8": "moretorches:block/cauldron_side",
-		"9": "moretorches:block/campfire_fire",
-		"bottom": "moretorches:block/planks_oak",
-		"base": "moretorches:block/lectern_base",
-		"front": "moretorches:block/lectern_front",
-		"sides": "moretorches:block/lectern_sides",
-		"2_log": "moretorches:block/campfire_log",
-		"litlog": "moretorches:block/campfire_log_lit",
-		"particle": "moretorches:block/campfire_log"
+		"8": "minecraft:block/cauldron_side",
+		"9": "minecraft:block/campfire_fire",
+		"bottom": "minecraft:block/planks_oak",
+		"base": "minecraft:block/lectern_base",
+		"front": "minecraft:block/lectern_front",
+		"sides": "minecraft:block/lectern_sides",
+		"2_log": "minecraft:block/campfire_log",
+		"litlog": "minecraft:block/campfire_log_lit",
+		"particle": "minecraft:block/campfire_log"
 	},
 	"elements": [
 		{
