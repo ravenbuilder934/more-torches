@@ -1,9 +1,24 @@
 {
   "variants":
   {
-    "":
+    "facing=east":
     {
       "model": "moretorches:block/sconce"
+    },
+    "facing=north":
+    {
+      "model": "moretorches:block/sconce",
+      "y": 270
+    },
+    "facing=south":
+    {
+      "model": "moretorches:block/sconce",
+      "y": 90
+    },
+    "facing=west":
+    {
+      "model": "moretorches:block/sconce",
+      "y": 180
     }
   }
 }

@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "block/fire_floor",
+	"parent": "block/template_fire_floor",
 	"ambientocclusion": false,
 	"textures": {
 		"8": "moretorches:block/cauldron_side",
@@ -10,7 +10,8 @@
 		"front": "moretorches:block/lectern_front",
 		"sides": "moretorches:block/lectern_sides",
 		"2_log": "moretorches:block/campfire_log",
-		"litlog": "moretorches:block/campfire_log_lit"
+		"litlog": "moretorches:block/campfire_log_lit",
+		"particle": "moretorches:block/campfire_log"
 	},
 	"elements": [
 		{

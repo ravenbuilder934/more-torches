@@ -8,7 +8,9 @@ import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
-import static moretorches.block.BlockRegistry.*;
+import static moretorches.block.BlockRegistry.lecterntorch;
+import static moretorches.block.BlockRegistry.sconce;
+import static moretorches.block.BlockRegistry.talltorch;
 
 public class ItemRegistry
 {
