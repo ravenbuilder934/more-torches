@@ -3,14 +3,14 @@
 	"parent": "minecraft:block/block",
 	"ambientocclusion": false,
 	"textures": {
-		"8": "moretorches/cauldron_side",
-		"9": "moretorches/campfire_fire",
-		"bottom": "moretorches/oak_planks",
-		"base": "moretorches/lectern_base",
-		"front": "moretorches/lectern_front",
-		"sides": "moretorches/lectern_sides",
-		"2_log": "moretorches/campfire_log",
-		"litlog": "moretorches/campfire_log_lit"
+		"8": "minecraft:/cauldron_side",
+		"9": "minecraft:/campfire_fire",
+		"bottom": "minecraft:/oak_planks",
+		"base": "minecraft:/lectern_base",
+		"front": "minecraft:/lectern_front",
+		"sides": "minecraft:/lectern_sides",
+		"2_log": "minecraft:/campfire_log",
+		"litlog": "minecraft:/campfire_log_lit"
 	},
 	"elements": [
 		{
