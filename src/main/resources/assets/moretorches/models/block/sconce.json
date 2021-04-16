@@ -1,11 +1,11 @@
 {
-	"credit": "Made with moretorches:blockbench",
+
 	"parent": "moretorches:block/template_sconce",
 	"textures": {
-		"8": "moretorches:block/cauldron_side",
-		"particle": "moretorches:block/campfire_log",
-		"2_log": "moretorches:block/campfire_log",
-		"litlog": "moretorches:block/campfire_log_lit",
-		"fire": "moretorches:block/campfire_fire"
+		"8": "minecraft:block/cauldron_side",
+		"particle": "minecraft:block/campfire_log",
+		"2_log": "minecraft:block/campfire_log",
+		"litlog": "minecraft:block/campfire_log_lit",
+		"fire": "minecraft:block/campfire_fire"
   }
 }

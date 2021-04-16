@@ -1,16 +1,15 @@
 {
-	"credit": "Made with moretorchesbench",
 	"parent": "minecraft:block/block",
 	"ambientocclusion": false,
 	"textures": {
-		"8": "minecraft:/cauldron_side",
-		"9": "minecraft:/campfire_fire",
-		"bottom": "minecraft:/oak_planks",
-		"base": "minecraft:/lectern_base",
-		"front": "minecraft:/lectern_front",
-		"sides": "minecraft:/lectern_sides",
-		"2_log": "minecraft:/campfire_log",
-		"litlog": "minecraft:/campfire_log_lit"
+		"8": "minecraft:block/cauldron_side",
+		"9": "minecraft:block/campfire_fire",
+		"bottom": "minecraft:block/oak_planks",
+		"base": "minecraft:block/lectern_base",
+		"front": "minecraft:block/lectern_front",
+		"sides": "minecraft:block/lectern_sides",
+		"2_log": "minecraft:block/campfire_log",
+		"litlog": "minecraft:block/campfire_log_lit"
 	},
 	"elements": [
 		{
