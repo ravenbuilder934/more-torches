@@ -1,10 +1,12 @@
 {
-	"credit": "Made with moretorches:blockbench",
+	"credit": "Made with moretorchesbench",
 	"parent": "minecraft:block/block",
 	"textures": {
-		"8": "moretorches:block/cauldron_side",
-		"particle": "moretorches:block/campfire_log",
-		"2_log": "moretorches:block/campfire_log"
+		"8": "moretorches/cauldron_side",
+		"particle": "moretorches/campfire_log",
+		"2_log": "moretorches/campfire_log",
+		"litlog": "moretorches/campfire_log_lit",
+		"fire": "moretorches/campfire_fire"
 	},
 	"elements": [
 		{
@@ -56,8 +58,30 @@
 				"east": {"uv": [0, 15, 6, 16], "texture": "#2_log", "cullface": "north"},
 				"south": {"uv": [0, 15, 6, 16], "texture": "#2_log", "cullface": "north"},
 				"west": {"uv": [0, 15, 6, 16], "texture": "#2_log", "cullface": "north"},
-				"up": {"uv": [0, 8, 16, 14], "rotation": 90, "texture": "#2_log"},
+				"up": {"uv": [0, 8, 16, 14], "rotation": 90, "texture": "#litlog"},
 				"down": {"uv": [0, 8, 16, 14], "rotation": 90, "texture": "#2_log", "cullface": "down"}
+			}
+		},
+		{
+			"name": "fire2",
+			"from": [5.8, 25, 8],
+			"to": [10.2, 32, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 23, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#fire"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#fire"}
+			}
+		},
+		{
+			"name": "fire",
+			"from": [8, 25, 5.8],
+			"to": [8, 32, 10.2],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 23, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#fire"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#fire"}
 			}
 		},
 		{
@@ -298,6 +322,6 @@
 		{
 			"name": "campfire",
 			"origin": [8, 8, 8],
-			"children": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
-		}, 16, 17, 18]
+			"children": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+		}, 18, 19, 20]
 }
